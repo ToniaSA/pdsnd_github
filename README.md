@@ -1,15 +1,31 @@
-### Date created
-Include the date you created this project and README file.
+### Creation Dates
+Bikeshare.py created 2020.08.29
+README.md created 2020.09.21
 
 ### Project Title
-Replace the Project Title
+Bike Share Project
+
+## Table of Contents
+*[Description](#description)
+*[Files Used](#files used)
+*[Credits](#credits)
 
 ### Description
-Describe what your project is about and what it does
+This project as a deliverable for Udacity's Programming for Data Science with Python course.
+The bike share project utilizes data from a bike rental company for 3 cities.  Interacting with the
+user (i.e. person executing the program) to provide various stats and information (i.e. trip, user)
+about the data for a selected city.
 
 ### Files used
-Include the files used
+Bikeshare.py - project
+.gitignore - list of city data files
+README.md - information regarding project
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+To complete this project, I consulted with or utilized the following:
+*Dr. Leonard Manhanga, Data Scientist, Toyota Motor North America
+*stackoverflow.com
+*knowledge.udacity.com
+*geeksforgeeks.org
+*pandas.pydata.org
+*realpython.com
