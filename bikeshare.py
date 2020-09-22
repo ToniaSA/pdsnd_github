@@ -344,6 +344,7 @@ def main():
 
     while True:
         city, month, day = get_filters()
+        #Debug: confirm city, month, day values are passed correctly
         #print(city, " ",month," ",day)
         df = load_data(city, month, day)
         #Debug: print first 5 rows to ensure data is available and as expected
