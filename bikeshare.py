@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 
-CITY_DATA = { 'chicago': 'chicago.csv',
+city_data = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
@@ -33,7 +33,7 @@ def get_filters():
    # Select a valid city
     while flag == 0:
         city = input("What city would you like to explore?  Chicago, New York City or Washington? ").lower()
-        goodcity = city in CITY_DATA
+        goodcity = city in city_data
         if goodcity == True:
             flag=1
         else:
@@ -97,7 +97,7 @@ def load_data(city, month, day):
         df - Pandas DataFrame containing city data filtered by month and day
     """
     # load data file into a dataframe
-    df = pd.read_csv(CITY_DATA[city])
+    df = pd.read_csv(city_data[city])
 
 # convert the Start Time column to datetime
     df['Start Time'] = pd.to_datetime(df['Start Time'])
