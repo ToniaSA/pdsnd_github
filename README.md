@@ -17,13 +17,15 @@ user (i.e. person executing the program) to provide various stats and informatio
 about the data for a selected city.
 
 ### Files used
-Bikeshare.py - project
-.gitignore - list of city data files
+Bikeshare.py - Python project file
+.gitignore - list of city data files.  The data files have not been uploaded to Github.
 README.md - information regarding project
 
 ### Credits
-To complete this project, I consulted with or utilized the following:
+To complete this project, I consulted with:
 *Dr. Leonard Manhanga, Data Scientist, Toyota Motor North America
+
+and utilized the following:
 *stackoverflow.com
 *knowledge.udacity.com
 *geeksforgeeks.org
