@@ -21,7 +21,7 @@ def get_filters():
     """
     month = "all"
     day = "all"
-    flag = 0
+    city_flag = 0
     day_flag = 0
     month_flag = 0
     filter_flag = 0
@@ -31,11 +31,11 @@ def get_filters():
 
 
    # Select a valid city
-    while flag == 0:
+    while city_flag == 0:
         city = input("What city would you like to explore?  Chicago, New York City or Washington? ").lower()
         goodcity = city in city_data
         if goodcity == True:
-            flag=1
+            city_flag=1
         else:
             print("Oopsie! City entered is not valid.  Please try again.")
 
